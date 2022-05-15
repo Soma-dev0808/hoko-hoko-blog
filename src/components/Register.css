@@ -1,0 +1,40 @@
+.register {
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+
+.title {
+    font-size: 50px;
+}
+
+.firstname {
+    display: inline-block;
+}
+
+.lastname {
+    display: inline-block;
+}
+
+.email {
+    display: block;
+    margin: 0 auto;
+}
+
+.password {
+    display: block;
+    margin: 0 auto;
+}
+
+.confirmpassword {
+    display: block;
+    margin: 0 auto;
+}
+
+.submit {
+    display: block;
+    background-color: green;
+    color: white;
+    margin: 0 auto;
+}
