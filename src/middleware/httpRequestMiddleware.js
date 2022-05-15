@@ -1,7 +1,20 @@
 /* eslint-disable no-param-reassign */
 import qs from 'qs';
-import { createAxios } from 'axios';
+import axios from 'axios';
+import PathManagedStore from '../utils/PathManagedStore';
 
+const { CancelToken } = axios;
+
+// axiosインスタンス化
+const createAxios = () => axios.create({
+    // HTTP通信時の共通デフォルト設定はここでする
+    responseType: 'json',
+    paramsSerializer(params) {
+        return qs.stringify(params, { arrayFormat: 'repeat' });
+    },
+});
+
+// axiosのインスタンスを取得
 const getAxiosInstance = (() => {
     let instance = null;
 
@@ -17,6 +30,27 @@ const getAxiosInstance = (() => {
     };
 })();
 
+// キャンセルトークン
+// グローバルに持てばどこからでもリクエストキャンセル可能
+const getCancelTokenStore = (() => {
+    let store;
+
+    return () => {
+        // インスタンスが既に生成された場合はそのインスタンスを返す
+        if (store) {
+            return store;
+        }
+
+        store = new PathManagedStore();
+
+        return store;
+    };
+})();
+
+/**
+ * cancelRequest
+ * Fetch中のリクエストをキャンセルする
+ */
 export const cancelRequest = (requestId) => {
     if (requestId) {
         getCancelTokenStore().getAll(requestId).forEach((source) => {
@@ -149,3 +183,4 @@ const httpRequestMiddleware = () => (next) => async (action) => {
 };
 
 export default httpRequestMiddleware;
+/* eslint-enable no-param-reassign */
