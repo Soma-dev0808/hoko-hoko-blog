@@ -1,8 +1,11 @@
 import React from 'react';
+
 import { Provider } from 'react-redux';
 import AuthenticatedLayout from './components/AuthenticatedLayout';
 import UnAuthenticatedLayout from './components/UnAuthenticated';
 import getOrCreateStore from './store/configureStore';
+import Register from './pages/Register';
+
 
 function App() {
   // Redux store
@@ -14,7 +17,7 @@ function App() {
     <Provider store={store}>
       <AppLayout>
         <div className="App">
-          Olla!!
+          <Register />
         </div>
       </AppLayout>
     </Provider>
