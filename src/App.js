@@ -6,7 +6,6 @@ import UnAuthenticatedLayout from './components/UnAuthenticated';
 import getOrCreateStore from './store/configureStore';
 import Register from './pages/Register';
 
-
 function App() {
   // Redux store
   const store = getOrCreateStore();
