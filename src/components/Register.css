@@ -1,16 +1,40 @@
 .register {
     background-color: whitesmoke;
     text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background-clip: content-box;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title::before,
+.title::after {
+    border-top: 1px solid;
+    flex-grow: 1;
+    content: "";
+    background-color: black;
+}
+
+
+.name {
+    width: 100px;
+    height: 30px;
 
 }
 
 
-.title {
-    font-size: 50px;
+.input2 {
+    width: 200px;
+    height: 30px;
 }
 
 .firstname {
     display: inline-block;
+    margin: 10px;
 }
 
 .lastname {
@@ -19,22 +43,26 @@
 
 .email {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .password {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .confirmpassword {
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .submit {
     display: block;
     background-color: green;
     color: white;
-    margin: 0 auto;
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
 }
