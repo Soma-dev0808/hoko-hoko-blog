@@ -1,0 +1,116 @@
+{
+  "mock-blogs": [
+    {
+      "id": "1",
+      "title": "Blog1",
+      "views": 100,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer1",
+      "status": "2",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    },
+    {
+      "id": "2",
+      "title": "Blog2Blog2Blog2Blog2Blog2Blog2Blog2Blog2Blog2Blog2",
+      "views": 10000,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer2",
+      "status": "2",
+      "content": "Clean confortable BlogList"
+    },
+    {
+      "id": "3",
+      "title": "Blog3",
+      "views": 2000,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer3",
+      "status": "2",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    },
+    {
+      "id": "4",
+      "title": "Blog4",
+      "views": 100000,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer4",
+      "status": "0",
+      "content": "Pellentesque fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    },
+    {
+      "id": "5",
+      "title": "Blog5",
+      "views": 100,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer5",
+      "status": "2",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    },
+    {
+      "id": "6",
+      "title": "Blog6",
+      "views": 100,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer6",
+      "status": "1",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    },
+    {
+      "id": "7",
+      "title": "Blog7",
+      "views": 100,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer8",
+      "status": "2",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    },
+    {
+      "id": "8",
+      "title": "Blog8",
+      "views": 100,
+      "subDetails": {
+        "subDetail1": "Japan",
+        "subDetail2": "Tokyo",
+        "subDetail3": "Shinjuku"
+      },
+      "date": "2022-10-22",
+      "writer": "writer9",
+      "status": "2",
+      "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus"
+    }
+  ]
+}

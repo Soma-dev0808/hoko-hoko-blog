@@ -93,7 +93,7 @@ const fetch = (action, next) => {
 
     const store = getCancelTokenStore();
     // このリクエストのキャンセルトークンを格納するパスを決定
-    const storePath = [action.type, store.generateRadomId()];
+    const storePath = [action.type, store.generateRandomId()];
     // キャンセルトークン生成
     const cancelTokenSource = CancelToken.source();
     action.payload.request.cancelToken = cancelTokenSource.token;
