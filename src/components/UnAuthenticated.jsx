@@ -1,11 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './UnAuthenticated.scss';
+
 const UnAuthenticatedLayout = ({ children }) => (
-    <section>
-        <header>un authenticated</header>
+    <div className="unauthenticated-container">
+        <div className="unauthenticated-header">unauthenticated</div>
         {children}
-    </section>
+    </div>
 );
 
 UnAuthenticatedLayout.propTypes = {
