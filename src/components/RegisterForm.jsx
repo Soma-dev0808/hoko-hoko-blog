@@ -1,13 +1,27 @@
 /* eslint-disable arrow-body-style */
 /* eslint-disable react/jsx-indent */
 /* eslint-disable react/function-component-definition */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './Register.css';
 
 const RegisterForm = () => {
+    const [images, setimages] = useState([]);
+    const getImages = async () => {
+        const imagesRes = await fetch('http://localhost:3004/mock-images');
+        const res = await imagesRes.json();
+        setimages(res);
+    };
+
+    useEffect(() => {
+        getImages();
+    }, []);
+
     return (
         <section className="register">
+            {images.length > 0 && images.map((image, idx) => (
+                <img key={image.image} src={image.image} alt={idx} />
+            ))}
             <h2 className="title"> Register</h2>
             <div className="explanation"> Create your account. Its free and only takes a minute</div>
             <input className="firstname inputs name" placeholder="First Name" />
