@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import { connect } from 'react-redux';
 import Proptypes from 'prop-types';
+import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import BlogListContainer from '../components/BlogList';
+import SampleHeader from '../components/SampleHeader';
 
 import { getBlogInfoAction, clearBlogInfoAction } from '../actions/blogActions';
 
@@ -11,10 +12,7 @@ const BlogList = ({
     getInfo,
     clearInfo,
 }) => {
-    const {
-        isFetching, blogs,
-    } = blogInfo;
-    console.log(blogs);
+    const { isFetching, blogs } = blogInfo;
 
     useEffect(() => {
         getInfo();
@@ -25,6 +23,7 @@ const BlogList = ({
     return isFetching
         ? null : (
             <section>
+                <SampleHeader />
                 <BlogListContainer blogList={blogs} />
             </section>
         );

@@ -30,5 +30,7 @@ module.exports = {
     'arrow-body-style': ['error', 'as-needed'],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-props-no-spreading': 'off',
+    'consistent-return': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
   },
 };

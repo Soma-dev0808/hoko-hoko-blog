@@ -5,8 +5,6 @@ import BlogListItem from './BlogListItem';
 import './BlogList.scss';
 
 const BlogList = ({ blogList }) => {
-    console.log(blogList, 'blogList');
-
     if (!Array.isArray(blogList) || !blogList.length) return null;
     return (
         <div className="BlogList-item-list">
